@@ -25,8 +25,8 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mern-file-manager.git
-cd mern-file-manager
+git clone [https://github.com/your-username/mern-file-manager.git](https://github.com/SudeepBhandari02/dummy-web-doc-sharing)
+cd dummy-web-doc-sharing
 ```
 
 ### 2. Install dependencies
