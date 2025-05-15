@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+debug.log
+pino*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+coverage/
+.vscode/
+
+# Uploaded files
+uploads/
+
+# React
+*.local
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Optional for frontend if it's in a subfolder like /client or /frontend
+/client/node_modules/
+/client/build/
+/client/dist/
+/client/.env
+/client/.DS_Store
