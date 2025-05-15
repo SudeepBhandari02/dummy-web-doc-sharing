@@ -4,6 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const fs = require("fs");
+const path = require("path");
 
 
 
@@ -26,7 +27,7 @@ if (!fs.existsSync("./uploads")) {
 
 
 app.use(express.json());
-app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/auth", authRoutes);
 app.use("/api/files", fileRoutes);
 
